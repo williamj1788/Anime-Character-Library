@@ -8,7 +8,7 @@ class Navbar extends React.Component{
                 <nav id="navbar">
                     <div id="Logo">
                         <img src="../pictures/Icon.jpg" style={{height: 42,width: 42}}></img>
-                        <h1 id="nav-title">QuizSite</h1>
+                        <h1 id="nav-title">QuezSite</h1>
                     </div>
                     <div id="links">
                         <a href="#"><h3 className="nav-link">Tokyo Ghoul</h3></a>

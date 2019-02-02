@@ -42,14 +42,22 @@ a:link{
     width: 700px;
     align-items: center;
 }
-.sub-title{
+#ghoul-container .sub-title{
     font-size: 65px;
     padding-top: 10px;
     text-align: center;
     color: #E8E3E3;
     font-weight: bold;
 }
-.char-button{
+#hero-container .sub-title{
+    font-size: 65px;
+    padding-top: 60px;
+    padding-left: 70px;
+    text-align: left;
+    color: #F7FE00;
+    font-weight: bold;
+}
+#ghoul-container .char-button{
     display: block;
     width: 200px;
     height: 50px;
@@ -60,13 +68,27 @@ a:link{
     font-size: 20px;
     border-radius: 5px;
 }
-.char-button:hover{
+#hero-container .char-button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: rgb(176, 179, 0);
+    color: #F7FE00;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#ghoul-container .char-button:hover{
     background-color: #535353;
+}
+#hero-container .char-button:hover{
+    background-color: rgb(105, 104, 0);
 }
 #ghoul-container{
     background-image: url(./pictures/Tokyo_Background.jpg);
     background-size: 100% 100%;
-    background-position: center - 10px;
+    background-position: center;
     width: 100%;
     height: 635px;
 

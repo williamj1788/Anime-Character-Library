@@ -4,7 +4,8 @@ class Hero extends React.Component{
     render(){
         return(
             <div id="hero-container">
-            ss
+                    <h2 className="sub-title">My Hero Academia</h2>
+                    <button className="char-button">View Character</button>
             </div>
         )
     }

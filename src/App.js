@@ -1,8 +1,13 @@
 import React from 'react';
+import Navbar from "./Navbar";
 
 export class App extends React.Component{
     render(){
-        return <h1>EVERYTHING IS AMESOME</h1>;
+        return(
+            <div>
+                <Navbar />
+            </div>
+        ) 
     }
 }
 export default App;

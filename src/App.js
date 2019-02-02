@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import Landing from "./landing";
+import Ghoul from "./Ghoul";
 
 
 export class App extends React.Component{
@@ -10,6 +11,7 @@ export class App extends React.Component{
                 <Navbar />
                 <div id="main">
                     <Landing />
+                    <Ghoul />
                 </div>
             </div>
         ) 

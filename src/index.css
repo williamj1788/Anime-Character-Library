@@ -27,6 +27,7 @@ nav{
 .nav-link{
     font-size: 26px;
     color: white;
+    text-align: center
 }
 a:link{
     text-decoration: none;
@@ -40,4 +41,11 @@ a:link{
     justify-content: space-around;
     width: 700px;
     align-items: center;
+}
+.sub-title{
+    font-size: 65px;
+    padding-top: 10px;
+    text-align: center;
+    color: #04EEF9;
+    font-weight: bold;
 }

@@ -46,6 +46,42 @@ a:link{
     font-size: 65px;
     padding-top: 10px;
     text-align: center;
-    color: #04EEF9;
+    color: #E8E3E3;
     font-weight: bold;
+}
+.char-button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.char-button:hover{
+    background-color: #535353;
+}
+#ghoul-container{
+    background-image: url(./pictures/Tokyo_Background.jpg);
+    background-size: 100% 100%;
+    background-position: center - 10px;
+    width: 100%;
+    height: 635px;
+
+}
+#landing-container{
+    background-image: url(./pictures/Top-Backgournd.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 835px;
+}
+#hero-container{
+    background-image: url(./pictures/Hero-Background.png);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 635px;
 }

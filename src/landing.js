@@ -1,12 +1,5 @@
 import React from 'react';
 
-const style = {
-    backgroundImage: "url(../pictures/Top-Backgournd.jpg)",
-    backgroundSize: "100% 100%",
-    backgroundPosition: "center",
-    width: "100%",
-    height: "835px"
-}
 const headStyle ={
     fontSize: "80px",
     paddingTop: "30px",
@@ -32,7 +25,7 @@ const linkStyle = {
 class Landing extends React.Component{
     render(){
         return(
-            <div style={style}>
+            <div id="landing-container">
                 <h2 style={headStyle}>Anime Character Library</h2>
                 <h3 style={subHeadStyle}>View Characters from Popular Animes like</h3>
                 <h5 style={linkStyle}>Tokyo Ghoul</h5>

@@ -7,7 +7,7 @@ class Navbar extends React.Component{
             <div style={{position: "fixed",width: "100%",zIndex: "10"}}>
                 <nav id="navbar">
                     <div id="Logo">
-                        <img src="../pictures/Icon.jpg" style={{height: 42,width: 42}}></img>
+                        <img src="Icon.jpg" style={{height: 42,width: 42}} alt=""></img>
                         <h1 id="nav-title">QuezSite</h1>
                     </div>
                     <div id="links">

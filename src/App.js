@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Landing from "./landing";
 import Ghoul from "./Ghoul";
 import Hero from "./Hero";
+import Punch from "./Punch";
 
 
 export class App extends React.Component{
@@ -14,6 +15,7 @@ export class App extends React.Component{
                     <Landing />
                     <Ghoul />
                     <Hero />
+                    <Punch />
                 </div>
             </div>
         ) 

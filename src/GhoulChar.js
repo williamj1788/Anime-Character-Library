@@ -5,8 +5,16 @@ class GhoulChar extends React.Component{
     
     render(){
         return(
-            <div>
-                <h1>Hello World</h1>
+            <div id="Ghoul-container">
+                <div className="char-container">
+                    <div>Character</div>
+                    <div>Character</div>
+                    <div>Character</div>
+                    <div>Character</div>
+                    <div>Character</div>
+                    <div>Character</div>
+                
+                </div>
             </div>
         )
     }

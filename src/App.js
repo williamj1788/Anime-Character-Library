@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from "./Navbar";
-import GhoulChar from "./GhoulChar";
-import Home from "./Home";
+import Navbar from "./Components/Navbar";
+import GhoulChar from "./Components/GhoulCompents/GhoulChar";
+import Home from "./Components/HomeCompents/Home";
 export class App extends React.Component{
     constructor(props){
         super(props);

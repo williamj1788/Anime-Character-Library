@@ -23,3 +23,29 @@
     width: 100%;
     height: 190px;
 }
+.info-container{
+    width: 874px;
+    height: 874px;
+    background-color: #4D4D4D;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-bottom: 1px;
+    margin-bottom: 50px;
+}
+.row{
+    display: flex;
+    padding-bottom: 25px;
+}
+.info-age{
+    font-size: 40pt;
+}
+.title{
+    width: 300px;
+}
+.info-history{
+    text-align: center;
+    font-size: 40pt;
+}
+.info-history-text{
+    font-size: 25pt;
+}

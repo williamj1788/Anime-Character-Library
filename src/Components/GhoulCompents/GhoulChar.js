@@ -1,41 +1,37 @@
 import React from 'react';
-import Kaneki from './Kaneki';
+import Card from './Card';
+import Info from './info';
 
 class GhoulChar extends React.Component{
-
+    constructor(props){
+        super(props);
+        this.state = {
+            self: {
+                age: "",
+                power: "",
+                history: "",
+            }
+        }
+        this.changeSelf = this.changeSelf.bind(this);
+    }
+    changeSelf(newSelf){
+        this.setState({
+            self: newSelf,
+        })
+    }
     render(){
         return(
             <div id="Ghoul-container">
                 <div className="char-container">
-                    <Kaneki />
-                    <Kaneki />
-                    <Kaneki />
-                    <Kaneki />
-                    <Kaneki />
-                    <Kaneki />
-                    <Kaneki />
+                    <Card name="Kaneki" img="Kaneki.jpg" age={18} power="Ghoul" onHover={this.changeSelf} />
+                    <Card name="Touka" img="touka.jpg" age={17} power="Ghoul" onHover={this.changeSelf} />
+                    <Card name="Rize" img="rize.jpg" age={18} power="Ghoul" onHover={this.changeSelf} />
+                    <Card name="Amon" img="kotaro.jpg" age={26} power="Human" onHover={this.changeSelf} />
+                    <Card name="Juuzou" img="juuzou.png" age={14} power="Human" onHover={this.changeSelf} />
+                    <Card name="Akihiro" img="akihiro.jpg" age={50} power="Ghoul" onHover={this.changeSelf} />
+                    <Card name="Hideyoshi" img="hideyoshi.jpg" age={17} power="Human" onHover={this.changeSelf} />
                 </div>
-                <div className="info-container">
-                    <div className="row">
-                        <p className="info-age title">Age:</p>
-                        <p className="info-age">Age</p>
-                    </div>
-                    <div className="row">
-                        <p className="info-age title">Power:</p>
-                        <p className="info-age">Power</p>
-                    </div>
-                    <p className="info-history">History</p>
-                    <p className="info-history-text">Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit. Aenean id nisi sed est dictum pretium. 
-                    Ut justo urna, hendrerit suscipit imperdiet vitae, tincidunt laoreet 
-                    enim. Aenean sit amet lorem in elit hendrerit suscipit vel quis purus.
-                    Nullam eget sem malesuada, maximus arcu quis, faucibus orci. Mauris 
-                    ultrices magna libero, id imperdiet ipsum viverra nec. Donec finibus
-                    massa diam, id ornare nulla accumsan sit amet. Sed in interdum eros.
-                    Fusce id elit at mauris placerat luctus in vel leo. Proin bibendum
-                    nunc mi, facilisis ullamcorper elit porta non. Sed convallis, nunc
-                    non aliquam tristique, ante elit varius sapien, in sagittis eros.</p>
-                </div>
+                <Info person={this.state.self} />
                 <div style={{height: "1px"}}></div>
             </div>
         )

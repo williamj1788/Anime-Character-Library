@@ -8,7 +8,10 @@
 .card{
     width: 210px;
     height: 230px;
-    padding: 0 2%;
+    padding: 0 10px;
+}
+.card:hover{
+    border: 3px solid white;
 }
 .card-header{
     width: 100%;
@@ -38,6 +41,7 @@
 }
 .info-age{
     font-size: 40pt;
+    color: white;
 }
 .title{
     width: 300px;
@@ -45,7 +49,9 @@
 .info-history{
     text-align: center;
     font-size: 40pt;
+    color: white;
 }
 .info-history-text{
     font-size: 25pt;
+    color: white;
 }

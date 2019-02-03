@@ -1,4 +1,5 @@
 import React from 'react';
+import Kaneki from './Kaneki';
 
 class GhoulChar extends React.Component{
 
@@ -6,15 +7,15 @@ class GhoulChar extends React.Component{
         return(
             <div id="Ghoul-container">
                 <div className="char-container">
-                    <div className="card">
-                        <div className="card-header">
-                            <h5>Character</h5>
-                        </div>
-                        <div className="card-body">
-                            <img src="Kaneki.jpg" width="100%" height="100%"></img>
-                        </div>
-                    </div>
+                    <Kaneki />
+                    <Kaneki />
+                    <Kaneki />
+                    <Kaneki />
+                    <Kaneki />
+                    <Kaneki />
+                    <Kaneki />
                 </div>
+                
             </div>
         )
     }
